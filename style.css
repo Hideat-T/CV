@@ -1,0 +1,196 @@
+/* General Body and Existing Styles (you can adapt these) */
+body {
+    font-family: 'Calibri Light', Arial, sans-serif; /* Added fallback fonts */
+    background-color: Silver; /* From your inline style */
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+table {
+    margin: 0 auto; /* Replaces align="center" */
+    width: 80%; /* Adjusted from 65% for better readability with details */
+    max-width: 900px; /* Max width for larger screens */
+    border-collapse: collapse; /* Good practice for tables */
+}
+
+td { /* Assuming your content is within table cells eventually */
+    padding: 10px;
+}
+
+center { /* You are using <center> a lot. This makes it behave like a block for margin auto */
+    display: block;
+    text-align: center; /* This is what <center> does */
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #7c5059; /* A shade of red, adjust as needed */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff; /* Standard link blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #2c3e50; /* A darker blue-gray, adjust as needed */
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 30px 0;
+}
+
+ul {
+    padding-left: 20px; /* Indent list items */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* ---- STYLES FOR THE LOGO BUTTONS AND DETAILS ---- */
+
+.experience-item {
+    margin-bottom: 20px; /* Space between job entries */
+    padding-bottom: 20px; /* Space before the next hr if hr is inside */
+    /* border-bottom: 1px solid #eee; */ /* Optional: if you remove <hr> inside */
+}
+
+.company-logo-button {
+    cursor: pointer;
+    border: 3px solid transparent; /* For hover effect */
+    border-radius: 8px; /* Slightly rounded corners for the "button" feel */
+    transition: border-color 0.3s ease, transform 0.2s ease;
+    display: inline-block; /* To allow border and transform */
+    margin-bottom: 10px; /* Space below logo */
+}
+
+.company-logo-button:hover {
+    border-color: #007bff; /* Highlight color on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.work-details {
+    display: none; /* Hidden by default */
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: left; /* Override center for details */
+}
+
+.work-details.visible {
+    display: block; /* Show when 'visible' class is added */
+}
+
+.work-details h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.work-details .dates {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+}
+/* Ensure list items inside work-details are styled correctly */
+.work-details ul {
+    list-style-type: disc; /* Standard bullet points */
+    padding-left: 20px;
+    margin: 10px 0 0 0; /* Adjust as needed */
+}
+.work-details ul li {
+    margin-bottom: 8px; /* Space between list items */
+    color: #333; /* Ensure text color is readable */
+}
+
+/* Specific adjustments for your header image and info */
+.profile-header img {
+    border-radius: 50%; /* Makes the profile picture round */
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.contact-info b font {
+    font-size: 1.8em; /* Was 6px, assuming you meant larger relative size */
+    color: #333;
+}
+.contact-info h3, .contact-info h5 {
+    margin: 5px 0;
+}
+
+/* styles.css */
+
+/* ... (your existing CSS for body, .company-logo-button, .work-details, etc.) ... */
+
+.cv-section-item {
+    margin-bottom: 20px; /* Space between main CV sections */
+}
+
+.section-toggle-button {
+    cursor: pointer;
+    display: inline-block; /* Ensures the <u><b> tags are part of the clickable area correctly */
+    transition: color 0.2s ease-in-out;
+    /* Optional: Add some padding if needed for a larger click area */
+    /* padding: 5px 0; */
+}
+
+.section-toggle-button:hover {
+    color: #0056b3; /* Example hover color - a darker blue, adjust as you like */
+}
+.section-toggle-button h3:hover, /* If h3 is directly styled */
+.section-toggle-button:hover h3 /* If h3 is child */ {
+    /* color: #0056b3 !important; /* Ensure hover applies */
+}
+
+
+.section-details {
+    display: none; /* Hidden by default */
+    margin-top: 10px; /* Space between heading and details */
+    padding: 15px;
+    border: 1px solid #e0e0e0; /* Lighter border than work-details or same */
+    background-color: #fcfcfc; /* Slightly different background or same */
+    border-radius: 5px;
+    text-align: left; /* Ensure content inside is left-aligned */
+}
+
+.section-details.visible {
+    display: block; /* Show when 'visible' class is added */
+}
+
+/* If you want the subheadings inside Zertifikate to be styled */
+.section-details h3 {
+    font-size: 1.1em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #555;
+}
+.section-details ul {
+    margin-top: 5px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="brocodes.css"
+</head>
+<body >
+        <!-- 
+    1 Inline
+    2.Internal
+    3.Exterrenal /works the best for a big website. 
+    -->
+
+    <h1> Help yourself</h1>
+
+    <p id="P1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iure nulla modi similique labore doloribus in culpa minima tempora, autem sunt consectetur a ex perferendis maxime dicta, debitis quas facere!</p>
+    <p id="P2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, autem? A debitis, esse soluta blanditiis obcaecati fugit saepe. Magnam, asperiores? Maxime adipisci accusantium corporis vel soluta veritatis, suscipit voluptatem perferendis.</p>
+    <p id="p3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam debitis omnis dolore autem. Officia magnam cupiditate fugit eligendi fuga, soluta, animi debitis modi odio odit, corporis porro repudiandae error est? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique reiciendis ullam, quis sed maxime alias hic odit dolores saepe deleniti. Itaque, delectus ut amet obcaecati fugiat illo illum nobis saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur incidunt laboriosam amet expedita, temporibus doloremque autem. Aut ea fuga ullam, dolor harum, laboriosam consequuntur saepe veniam tenetur, ab accusamus repudiandae? </p>
+    
+    
+</body>
+</html>

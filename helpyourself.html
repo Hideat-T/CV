@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    /*
+Tag  | Stands for   | What it does
+<tr> | Table Row    | Starts a new row in the table
+<th> | Table Header | Adds a heading cell (bold/centered by default)
+<td> | Table Data   | Adds a regular data cell 
+    ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <td colspan="3">A</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td rowspan="2">C</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td>F</td>
+        </tr>
+      </table>
+    ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <td colspan="2">Überschrift</td>
+        </tr>
+        <tr>
+          <td>Links</td>
+          <td>Rechts</td>
+        </tr>
+        <tr>
+          <td colspan="2">Fußzeile</td>
+        </tr>
+      </table>
+    ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <th colspan="3">Rechnungsposten</th>
+        </tr>
+        <tr>
+          <th>Menge</th>
+          <th>Beschreibung</th>
+          <th>Einzelpreis</th>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Artikel X</td>
+          <td>10,00 €</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Artikel Y</td>
+          <td>25,00 €</td>
+        </tr>
+        <tr>
+          <td colspan="3">Zwischensumme: 45,00 €</td>
+        </tr>
+      </table>
+      ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <th colspan="2">Funktionsvergleich</th>
+        </tr>
+        <tr>
+          <th>Paket</th>
+          <th>Feature</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Basis</td>
+          <td>Grundfunktion 1</td>
+        </tr>
+        <tr>
+          <td>Grundfunktion 2</td>
+        </tr>
+        <tr>
+          <td>Profi</td>
+          <td>Zusatzfunktion A</td>
+        </tr>
+        <tr>
+          <td colspan="2">Weitere Details auf Anfrage</td>
+        </tr>
+      </table>
+    ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <th colspan="2">Kontaktdetails</th>
+        </tr>
+        <tr>
+          <td>Name:</td>
+          <td>Maria Mustermann</td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td>maria@beispiel.com</td>
+        </tr>
+        <tr>
+          <td>Telefon:</td>
+          <td>0123 / 456 789</td>
+        </tr>
+      </table>
+    ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <th colspan="3">Wochenplan</th>
+        </tr>
+        <tr>
+          <th>Zeit</th>
+          <th>Montag</th>
+          <th>Dienstag</th>
+        </tr>
+        <tr>
+          <td>09:00</td>
+          <td>Meeting</td>
+          <td>Projektarbeit</td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td>Mittagessen</td>
+          <td>Mittagessen</td>
+        </tr>
+        <tr>
+          <td colspan="3">Stand: Diese Woche</td>
+        </tr>
+      </table>
+    ___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <th colspan="2">Produktübersicht</th>
+        </tr>
+        <tr>
+          <td>Produkt A</td>
+          <td>Preis: 19,99 €</td>
+        </tr>
+        <tr>
+          <td>Produkt B</td>
+          <td>Preis: 25,50 €</td>
+        </tr>
+        <tr>
+          <td>Produkt C</td>
+          <td>Preis: 12,00 €</td>
+        </tr>
+        <tr>
+          <td colspan="2">Alle Preise inkl. MwSt.</td>
+        </tr>
+      </table>
+___________________________________________________________________________________
+    <table border="1">
+        <tr>
+          <td colspan="2">Überschrift</td>
+        </tr>
+        <tr>
+          <td>Links</td>
+          <td>Rechts</td>
+        </tr>
+        <tr>
+          <td colspan="2">Fußzeile</td>
+        </tr>
+      </table>
+
+    
+
+
+
+      <ol >
+        <li>A
+            <ul>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </li>
+        <li>D
+            <ul>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+            </ul>
+        </li>
+        <li>H</li>
+    </ol>
+
+    <form action="verarbeitung.php" method="post">
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="passwort">Passwort:</label><br>
+        <input type="password" id="passwort" name="passwort" required><br><br>
+    
+        <label for="nachricht">Nachricht:</label><br>
+        <textarea id="nachricht" name="nachricht" rows="4" cols="50"></textarea><br><br>
+    
+  
+        <select id="auswahl" name="auswahl">
+            <option value="wert1">Wert 1</option>
+            <option value="wert2" selected>Wert 2</option>
+            <option value="wert3" >Wert 3</option>
+        </select><br><br>
+    
+        <input type="submit" value="Senden">
+    </form>
+
+
+
+
+</body>
+</html>
