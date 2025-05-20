@@ -26,7 +26,7 @@ center { /* You are using <center> a lot. This makes it behave like a block for 
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #7c5059; /* A shade of red, adjust as needed */
+    color: #7a3240; /* A shade of red, adjust as needed */
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -42,7 +42,7 @@ h5 {
 }
 
 a {
-    color: #007bff; /* Standard link blue */
+    color: #0a1827; /* Standard link blue */
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ a:hover {
 }
 
 p {
-    color: #2c3e50; /* A darker blue-gray, adjust as needed */
+    color: hsl(210, 14%, 43%); /* A darker blue-gray, adjust as needed */
     margin-bottom: 10px;
 }
 
@@ -98,8 +98,8 @@ li {
     display: none; /* Hidden by default */
     margin-top: 15px;
     padding: 15px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
+    border: 1px solid #160505;
+    background-color: #7992c0;
     border-radius: 5px;
     text-align: left; /* Override center for details */
 }
@@ -115,7 +115,7 @@ li {
 
 .work-details .dates {
     font-style: italic;
-    color: #555;
+    color: #180202;
     margin-bottom: 10px;
 }
 /* Ensure list items inside work-details are styled correctly */
